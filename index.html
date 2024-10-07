@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img class="logo" src="./img/logo.PNG" alt="Our logo" id="header-img" />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#pizza">Pizza!</a>
+        <a class="nav-link" href="#why">Why you should eat pizza?</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+
+    <section id="pizza">
+      <p>To get the latest pizza news leave your email here:</p>
+      <form
+        id="form"
+        action="https://www.freecodecamp.com/email-submit"
+        method="post"
+      >
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="john.doe@pizza.love"
+        />
+        <input id="submit" type="submit" />
+      </form>
+    </section>
+
+    <section id="why">
+      <p>Well, it's practically a universal love language! Pizza is like a hug you can eat—warm, cheesy, and always there for you when life gets tough. Plus, it's the only meal where it's socially acceptable to have a triangle as your main food group. Think about it: a salad never called you "extra" for ordering double cheese, and no one's ever cried tears of joy over a bowl of quinoa. But pizza? It’s got toppings for every personality type, from the mysterious pineapple enthusiast to the classic pepperoni loyalist. So, why pizza? Because happiness comes in slices!
+      </p>
+      <p>Still not conviced? Well, watch the video bellow in that case!</p>
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/OM0mmtzWWKo?si=AdUwckpOmgm6c6Ow"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </section>
+    
+    <section id="pricing">
+     <p>You can find the pizza price here: </p>
+     <div class="menu">
+     <div class="pricing-menu"><p>Small Pizza</p></div>
+     <div class="pricing-menu"><p>Medium Pizza</p></div>
+     <div class="pricing-menu"><p>Large Pizza</p></div>
+    </div>
+
+    </section> 
+  </body>
+</html>
